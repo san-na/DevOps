@@ -1,0 +1,28 @@
+# .gitignore by SanNa
+
+
+### Django ###
+local_settings.py
+*.log
+
+
+### python ###
+pip-log.txt  # Installer logs
+*.pyc
+*~
+*.swp
+
+
+### Vim ###
+.ropeproject/*
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~
+
+### Pycharm ###
+.idea/*
+
+
+### Mac ###
+.DS_Store
+

@@ -37,6 +37,14 @@ sudo vim /etc/ansible/hosts
 192.168.1.180
 ```
 
+> 还可以通过定义别名的方式将服务器信息写入hosts文件，如下
+
+```
+jumper ansible_ssh_user=ubuntu ansible_ssh_host=***.***.***.230
+```
+
+
+
 
 
 ### 2.2 测试连接主机

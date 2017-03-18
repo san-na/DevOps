@@ -1,0 +1,17 @@
+# 获取操作系统发行版
+- name: show Server release
+  hosts: public
+  tasks:
+    - debug: msg="This Server release is {{ ansible_distribution }}"
+
+# 获取远程服务器IP地址
+- name: show ipv4_addresses
+  hosts: public
+  tasks:
+    - debug: msg="This Server ipv4_address is {{ ansible_all_ipv4_addresses }}"
+
+# 从命令行获取变量值
+- name: get from
+  hosts: localhost
+  tasks:
+    - debug: msg={{ msg }}

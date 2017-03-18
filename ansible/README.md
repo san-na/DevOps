@@ -181,3 +181,13 @@ SSH password:
 backup | SUCCESS | rc=0 >>
 -rw-rw-r-- 1 ubuntu ubuntu 0 Mar 16 18:51 /tmp/nihao.py
 ```
+
+## 3. playbook
+
+>Ansible 的配置管理脚本称为playbook
+>每一个play必须包含以下两项
+
+1. host: 需要配置的主机
+2. task: 需要在这些主机上执行的任务
+
+> 还有一些常见(非必须)的有name sudo 和vars(变量与其值组成的list)
